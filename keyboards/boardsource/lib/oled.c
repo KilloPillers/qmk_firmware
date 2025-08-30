@@ -2,6 +2,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "oled.h"
 
+#define FRAME_CHUNK_SIZE 32
+
 void render_layer_state(void) {
     switch (get_highest_layer(layer_state)) {
         case 0:

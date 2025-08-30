@@ -1,2 +1,8 @@
 POINTING_DEVICE_DRIVER = analog_joystick
+RAW_HID = yes
 SRC += lib/oled.c
+MOUSE_ENABLED = no
+JOYSTICK_ENABLED = no
+OLED_ENABLED = yes
+VIA_ENABLED = yes
+CONSOLE_ENABLED = yes
